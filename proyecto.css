@@ -1,0 +1,298 @@
+
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+
+nav {
+background-color: #b0bec5;
+padding-left: 2vw;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+ height: 70px; 
+  overflow: visible;
+
+}
+
+.main-ul {
+display: flex;
+align-items: center;
+}
+
+li {
+list-style: none;
+cursor: pointer;
+padding: 1.5vw;
+transition: 0.3s ease;
+}
+
+li:hover {
+background-color: #212121;
+}
+
+.develop {
+position: relative;
+}
+
+.second-ul {
+display: none;
+position: absolute;
+margin-top: 1.5vw;
+}
+
+.develop:hover > .second-ul {
+display: block;
+}
+
+.second-ul > li {
+width: 190px;
+transform: translateX(-20px);
+border-bottom: solid 1px;
+text-align: center;
+background-color: #c0c0c0;
+}
+
+.second-ul > li:hover {
+
+background-color: #E8f8f8;
+}
+
+.develop:hover {
+display: block;
+}
+
+.third-ul {
+position: absolute;
+transform: translateX(100%);
+right: 0;
+top: 50%;
+display: none;
+background-color: #24252a;
+}
+
+.third-ul > li {
+padding: 1.5vw;
+border-bottom: solid 1px white;
+}
+
+.front:hover > .third-ul {
+display: block;
+}
+
+
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: right;
+  margin-left: 10px;
+  border: 5px solid black;
+}
+
+}
+
+ul {
+    font-family: 'Arial', sans-serif; 
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+ul li {
+    font-weight: bold; 
+    font-size: 25px; 
+    margin-bottom: 10px; 
+    line-height: 1.6; 
+}
+
+ul li {
+    color: white; }
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px; 
+}
+
+
+
+p {
+    color: blue;           
+    font-family: Arial, sans-serif;}
+h1 {
+    text-align: center;
+    color: black;           
+    font-family: Arial, sans-serif;}
+h2 {
+    color: #66ffff;           
+    font-family: Arial, sans-serif;}
+body {
+    background-color:white; 
+}
+
+#sugerencias li {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #000000; 
+}
+
+
+
+
+
+nav {
+  position: relative;
+  z-index: 2000;
+}
+
+
+.search-menu {
+  position: relative;
+  z-index: 100;
+}
+
+#sugerencias {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 100; 
+}
+
+.search-menu {
+  position: relative;
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #1976d2;
+}
+
+.search-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+#sugerencias {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+#sugerencias li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#sugerencias li:hover {
+  background-color: #e3f2fd;
+}
+
+
+
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2vw;
+  border: 3px solid white;
+}
+
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+.producto {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
