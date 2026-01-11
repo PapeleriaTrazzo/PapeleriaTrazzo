@@ -8,10 +8,7 @@ const datos = [
   { nombre: "Pegamento en barra con diseño de pato marca Tren Art", url: "6.html" },
   { nombre: "Tijera infantil segura DI313 con punta Roma", url: "7.html" },
   { nombre: "Libteta generica de 100 hojas con pasta transparente", url: "8.html" },
-  { nombre: "Bolsa negra", url: "9.html" },
-  { nombre: "Sombrero beige", url: "10.html" }
-]
-;
+  ;
 
 const input = document.getElementById("busqueda");
 const sugerencias = document.getElementById("sugerencias");
